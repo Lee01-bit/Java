@@ -58,7 +58,8 @@ Example: condition ? expression1 : expression2.
 
 
 2. Expressions:
-3. 
+
+    
 Definition: An expression is a combination of values, variables, and operators that evaluates to a single value. Expressions can be simple (e.g., a single value or variable) or complex (involving multiple operators and operands).
 
 Types of Expressions:
