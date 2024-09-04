@@ -1,10 +1,12 @@
 # JavaScript
+3 browser-specific functions to interact with visitors
 
 alert - used to display a alert box in your browser 
 
 prompt- It shows a modal window with a text message, an input field for the visitor, and the buttons OK/Cancel.
 
-confirm - The function confirm shows a modal window with a question and two buttons: OK and Cancel.
+confirm - The function confirm shows a modal window with a question and two buttons: OK and Cancel.It returns true for OK and false for Cancel/Esc.
+
 
 <b>e.g</b> result = prompt(title, [default]);
 
@@ -58,6 +60,8 @@ Examples: == (equal), != (not equal), === (strict equal), !== (strict not equal)
 
 Logical Operators: Used to combine multiple conditions.
 
+
+
 Examples: && (AND), || (OR), ! (NOT).
 
 Unary Operators: Operate on a single operand.
@@ -106,3 +110,11 @@ else Block: Executes when none of the previous conditions are met.
 
 switch Statements:
 
+<hr>
+<b>4 September 2024</b>
+
+conversions 
+
+String Conversion – Occurs when we output something. Can be performed with String(value). The conversion to string is usually obvious for primitive values.
+
+Numeric Conversion – Occurs in math operations. Can be performed with Number(value).
