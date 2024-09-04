@@ -118,3 +118,17 @@ Conversions
 String Conversion – Occurs when we output something. Can be performed with String(value). The conversion to string is usually obvious for primitive values.
 
 Numeric Conversion – Occurs in math operations. Can be performed with Number(value).
+
+
+Selecting DOM elements
+
+Methods for Selecting Elements:
+<li>getElementById: Selects a single element by its unique id.</li>
+
+<li>getElementsByClassName: Selects all elements that share the same class name.</li>
+
+<li>getElementsByTagName: Selects all elements with a specific tag name.</li>
+
+<li>querySelector: Selects the first element that matches a specified CSS selector.</li>
+
+<li>querySelectorAll: Selects all elements that match a specified CSS selector.</li>
