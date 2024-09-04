@@ -113,7 +113,7 @@ switch Statements:
 <hr>
 <b>4 September 2024</b>
 
-conversions 
+Conversions 
 
 String Conversion – Occurs when we output something. Can be performed with String(value). The conversion to string is usually obvious for primitive values.
 
