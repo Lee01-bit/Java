@@ -123,12 +123,24 @@ Numeric Conversion – Occurs in math operations. Can be performed with Number(v
 Selecting DOM elements
 
 Methods for Selecting Elements:
-<li>getElementById: Selects a single element by its unique id.</li>
+<li><b>getElementById:</b> Selects a single element by its unique id.</li>
 
-<li>getElementsByClassName: Selects all elements that share the same class name.</li>
+<li><b>getElementsByClassName:</b> Selects all elements that share the same class name.</li>
 
-<li>getElementsByTagName: Selects all elements with a specific tag name.</li>
+<li><b>getElementsByTagName:</b> Selects all elements with a specific tag name.</li>
 
-<li>querySelector: Selects the first element that matches a specified CSS selector.</li>
+<li><b>querySelector:</b> Selects the first element that matches a specified CSS selector.</li>
 
-<li>querySelectorAll: Selects all elements that match a specified CSS selector.</li>
+<li><b>querySelectorAll:</b> Selects all elements that match a specified CSS selector.</li>
+
+common modifications
+
+<li>Changing Content: Use the <b>textContent</b> or innerHTML properties to update the text or HTML inside an element.</li>
+
+<li>Changing Styles: Use the <b>style</b> property to modify the CSS styles of an element (e.g., element.style.color = "blue";).</li>
+
+<li>Adding/Removing Classes: Use <b>classList.add</b>, classList.remove, or classList.toggle to manipulate an element’s classes.</li>
+
+<li>Changing Attributes: Use <b>setAttribute</b> and removeAttribute to modify or remove attributes like src, href, alt, etc.</li>
+
+<li>Creating and Inserting Elements: Use <b>createElement</b> and appendChild to create new elements and add them to the DOM.</li>
