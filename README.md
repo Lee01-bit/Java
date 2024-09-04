@@ -1,5 +1,15 @@
 # JavaScript
 
+alert - used to display a alert box in your browser 
+
+prompt- It shows a modal window with a text message, an input field for the visitor, and the buttons OK/Cancel.
+
+confirm - The function confirm shows a modal window with a question and two buttons: OK and Cancel.
+
+<b>e.g</b> result = prompt(title, [default]);
+
+// is used for comments in javaScript if its only one line . /**/ used for multiple line comments 
+
 Variables:
 
 Definition: A variable in JavaScript is a container that holds data values. Variables allow you to store, update, and manipulate information throughout your code.
