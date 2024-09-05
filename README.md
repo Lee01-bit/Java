@@ -10,7 +10,7 @@ confirm - The function confirm shows a modal window with a question and two butt
 
 <b>e.g</b> result = prompt(title, [default]);
 
-// is used for comments in javaScript if its only one line . /**/ used for multiple line comments 
+<b>//</b> is used for comments in javaScript if its only one line . /**/ used for multiple line comments 
 
 Variables:
 
