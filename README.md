@@ -141,6 +141,38 @@ common modifications
 
 <li>Adding/Removing Classes: Use <b>classList.add</b>, classList.remove, or classList.toggle to manipulate an element’s classes.</li>
 
+
+# Advanced-Java
+
+18 September 2024
+ES6+ features:
+
+A block statement is used to group zero or more statements. The block is delimited by a pair of braces ("curly braces") and contains a list of zero or more statements and declarations.
+
+<b>let</b> - it is used for variables that may change 
+
+<b>const</b> - used for values that should not be reassigned 
+
+<b>Arrow functions</b> - this is used to write a shorter functions , improving code readibilty. 
+They also have a lexical 'this', which simplies the handling of "this" in certain contexts
+
+<b>Template Literals:</b> Made string creation more flexible  , allowing for embedded expressions, multi-line strings and easier string formatting
+
+
+Asynchronous JavaScript
+
+callbacks: The traditional method for handling asynchronous operations, but can lead to deeply nested code known as "callback hell."
+
+Promises: we use .then() and .catch() to manage our task and it allows us to chain them , reducing the issues associated with callbacks.
+
+Async/Await: Introduced a more intuitive way to write asynchronous code that looks and behaves like synchronous code, making it easier to follow and debug.
+
+Error Handling:
+
+try-catch: A structured way to manage errors in your code. The try block allows you to test code for errors, while the catch block handles any errors that occur. The finally block can be used for cleanup tasks, ensuring that certain code runs regardless of the outcome.
+
+
+
 <li>Changing Attributes: Use <b>setAttribute</b> and removeAttribute to modify or remove attributes like src, href, alt, etc.</li>
 
 <li>Creating and Inserting Elements: Use <b>createElement</b> and appendChild to create new elements and add them to the DOM.</li>
